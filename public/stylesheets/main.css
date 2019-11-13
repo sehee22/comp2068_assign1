@@ -1,0 +1,39 @@
+﻿/*
+    Assignment1
+    Sehee Park (200389459)
+    Assignment1
+    css file for decorating html
+*/
+
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+li a {
+    color: #d7a150;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+/*mouse over, a tag text colour will be changed*/  
+a:hover {
+    transition: 0.7s cubic-bezier(0.42, 0.0, 0.58, 1.0);
+}
+
+/*indent dd tag*/
+dd {
+    text-indent: 20px;
+}
